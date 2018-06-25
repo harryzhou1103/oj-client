@@ -10,6 +10,8 @@ import { ProblemListComponent } from './components/problem-list/problem-list.com
 
 import { DataService } from "./services/data.service";
 import { ProblemDetailComponent } from './components/problem-detail/problem-detail.component';
+import { NewProblemComponent } from './components/new-problem/new-problem.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { ProblemDetailComponent } from './components/problem-detail/problem-deta
     ProblemListComponent,
     ProblemListComponent,
     ProblemListComponent,
-    ProblemDetailComponent
+    ProblemDetailComponent,
+    NewProblemComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
